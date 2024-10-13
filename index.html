@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Génération Autisme</title>
+    <link href="./src/output.css" rel="stylesheet">
+</head>
+
+<body id="top">
+    <main>
+        <header class="bg-blue-500 shadow-md z-50 w-full fixed top-0">
+            <nav id="main-nav" class=" bg-blue-500 p-4 max-w-6xl mx-auto text-white flex items-center justify-between">
+                <div><a href="#" class="font-semibold md:text-2xl text-xl flex">Génération Autisme</a></div>
+                <!-- SVG du bouton hamburger -->
+                <div>
+                    <button aria-label="toggle button" aria-expanded="false" id="menu-btn"
+                        class="cursor-pointer w-7 md:hidden">
+                        <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5"
+                            stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round"
+                                d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                        </svg>
+                    </button>
+                    <ul id="toggled-menu" class="w-full absolute top-full left-0 -translate-y-full -z-10 bg-blue-500 text-white
+                        flex flex-col md:flex-row items-center md:static md:z-10 md:transform-none uppercase md:normal-case">
+                        <li class="py-4 md:py-0 md:mr-6">
+                            <a href="" class="font-semibold w-full hover:underline underline-offset-4">Maison Bleue</a>
+                        </li>
+                        <li class="py-4 md:py-0 md:mr-6"><a href=""
+                                class="font-semibold w-full hover:underline underline-offset-4">Le Livre</a></li>
+                        <li class="py-4 md:py-0 md:mr-6"><a href=""
+                                class="font-semibold w-full hover:underline underline-offset-4">Divers</a></li>
+                        <li><a href=""
+                                class="hidden md:inline w-full bg-blue-900 md:mr-6 py-2 px-3 mb-4 rounded-full shadow-lg hover:bg-blue-950 text-blue-50 hover:text-white font-semibold">Nous
+                                trouver</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </header>
+
+        <div class="text-blue-950 mx-4 mb-6 mt-20 md:mt-24">
+            <h1 class="text-3xl md:text-4xl mb-3 font-bold text-center">Génération Autisme</h1>
+            <p class="text-center md:max-w-3xl mx-auto md:text-left">Depuis 2014, l'association Génération Autisme
+                s'engage pour le bien-être et les droits des enfants autistes de 0 à
+                21 ans.<br> Nous luttons contre la discrimination, favorisons leur inclusion scolaire, soutenons les
+                familles, et œuvrons pour des prises en charge adaptées. Ensemble, bâtissons un avenir inclusif, informé
+                et respectueux pour tous ces enfants.</p>
+        </div>
+
+        <div class="text-center">
+            <a href=""
+                class="bg-blue-900 py-2 md:hidden px-5 rounded-full shadow-lg hover:bg-blue-950 text-white font-semibold">Nous
+                trouver</a>
+        </div>
+
+        <div class="bg-blue-50 pt-4 pb-6 px-3 my-10 mx-3 rounded-md md:max-w-3xl md:mx-auto md:px-7 shadow">
+            <p class="hidden md:block text-center text-2xl text-blue-950 mt-3 font-semibold mb-7">Nos engagements...</p>
+            <div class="text-center text-blue-900 flex flex-col sm:flex-row gap-10 md:max-w-5xl md:h-32">
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="size-16 mx-auto">
+                        <path
+                            d="M11.7 2.805a.75.75 0 0 1 .6 0A60.65 60.65 0 0 1 22.83 8.72a.75.75 0 0 1-.231 1.337 49.948 49.948 0 0 0-9.902 3.912l-.003.002c-.114.06-.227.119-.34.18a.75.75 0 0 1-.707 0A50.88 50.88 0 0 0 7.5 12.173v-.224c0-.131.067-.248.172-.311a54.615 54.615 0 0 1 4.653-2.52.75.75 0 0 0-.65-1.352 56.123 56.123 0 0 0-4.78 2.589 1.858 1.858 0 0 0-.859 1.228 49.803 49.803 0 0 0-4.634-1.527.75.75 0 0 1-.231-1.337A60.653 60.653 0 0 1 11.7 2.805Z" />
+                        <path
+                            d="M13.06 15.473a48.45 48.45 0 0 1 7.666-3.282c.134 1.414.22 2.843.255 4.284a.75.75 0 0 1-.46.711 47.87 47.87 0 0 0-8.105 4.342.75.75 0 0 1-.832 0 47.87 47.87 0 0 0-8.104-4.342.75.75 0 0 1-.461-.71c.035-1.442.121-2.87.255-4.286.921.304 1.83.634 2.726.99v1.27a1.5 1.5 0 0 0-.14 2.508c-.09.38-.222.753-.397 1.11.452.213.901.434 1.346.66a6.727 6.727 0 0 0 .551-1.607 1.5 1.5 0 0 0 .14-2.67v-.645a48.549 48.549 0 0 1 3.44 1.667 2.25 2.25 0 0 0 2.12 0Z" />
+                        <path
+                            d="M4.462 19.462c.42-.419.753-.89 1-1.395.453.214.902.435 1.347.662a6.742 6.742 0 0 1-1.286 1.794.75.75 0 0 1-1.06-1.06Z" />
+                    </svg>
+                    <p class="text-blue-950">Favoriser <strong>l'inclusion scolaire et ordinaire</strong>.</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="size-16 mx-auto">
+                        <path fill-rule="evenodd"
+                            d="M12 2.25a.75.75 0 0 1 .75.75v.756a49.106 49.106 0 0 1 9.152 1 .75.75 0 0 1-.152 1.485h-1.918l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 18.75 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84l2.474-10.124H12.75v13.28c1.293.076 2.534.343 3.697.776a.75.75 0 0 1-.262 1.453h-8.37a.75.75 0 0 1-.262-1.453c1.162-.433 2.404-.7 3.697-.775V6.24H6.332l2.474 10.124a.75.75 0 0 1-.375.84A6.723 6.723 0 0 1 5.25 18a6.723 6.723 0 0 1-3.181-.795.75.75 0 0 1-.375-.84L4.168 6.241H2.25a.75.75 0 0 1-.152-1.485 49.105 49.105 0 0 1 9.152-1V3a.75.75 0 0 1 .75-.75Zm4.878 13.543 1.872-7.662 1.872 7.662h-3.744Zm-9.756 0L5.25 8.131l-1.872 7.662h3.744Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <p class="text-blue-950"><strong>Défendre les droits</strong> des enfants autistes.</p>
+                </div>
+                <div>
+                    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="currentColor"
+                        class="size-16 mx-auto">
+                        <path fill-rule="evenodd"
+                            d="M12 2.25c-5.385 0-9.75 4.365-9.75 9.75s4.365 9.75 9.75 9.75 9.75-4.365 9.75-9.75S17.385 2.25 12 2.25Zm-2.625 6c-.54 0-.828.419-.936.634a1.96 1.96 0 0 0-.189.866c0 .298.059.605.189.866.108.215.395.634.936.634.54 0 .828-.419.936-.634.13-.26.189-.568.189-.866 0-.298-.059-.605-.189-.866-.108-.215-.395-.634-.936-.634Zm4.314.634c.108-.215.395-.634.936-.634.54 0 .828.419.936.634.13.26.189.568.189.866 0 .298-.059.605-.189.866-.108.215-.395.634-.936.634-.54 0-.828-.419-.936-.634a1.96 1.96 0 0 1-.189-.866c0-.298.059-.605.189-.866Zm2.023 6.828a.75.75 0 1 0-1.06-1.06 3.75 3.75 0 0 1-5.304 0 .75.75 0 0 0-1.06 1.06 5.25 5.25 0 0 0 7.424 0Z"
+                            clip-rule="evenodd" />
+                    </svg>
+                    <p class="text-blue-950"><strong>Accompagner et soutenir</strong> les familles.</p>
+                </div>
+            </div>
+        </div>
+
+        <h2 class="text-2xl text-center mb-5 mx-3 text-blue-950 md:mb-10 font-semibold">Les oeuvres de Génération
+            Autisme</h2>
+
+        <div class="flex flex-col sm:flex-row justify-between mx-3 md:mx-auto max-w-3xl gap-8 md:gap-14">
+            <div class="bg-blue-200 shadow rounded-lg basis-1/2">
+                <div class="p-3">
+                    <img src="./src/img/salon.jpg" class="aspect-video object-cover rounded-sm"
+                        alt="Illustration du salon de la maison bleue.">
+                    <div class="my-2 text-center md:text-left">
+                        <h3 class="text-lg font-semibold">La Maison Bleue</h3>
+                        <p>Découvrez notre maison d'accueil à Marseille avec des activités pour adolescents autistes,
+                            visant à les rendre plus autonomes.</p>
+                        <div class="mt-6 text-center"><a href=""
+                                class="bg-blue-900 py-2 md:py-3 px-4 rounded-full shadow-lg hover:bg-blue-950 text-blue-50 hover:text-white font-semibold">En
+                                savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="bg-blue-200 shadow rounded-lg basis-1/2">
+                <div class="p-3">
+                    <img src="./src/img/illustration_couverture.jpg" class="aspect-video object-cover rounded-sm"
+                        alt="Illustration du salon de la maison bleue.">
+                    <div class="my-2 text-center md:text-left">
+                        <h3 class="text-lg font-semibold">Le témoignage de Spasenia</h3>
+                        <p>Dans ce livre, Spasenia de Carmejane délivre un récit authentique sur son combat pour son
+                            fils autiste.</p>
+                        <div class="mt-6 text-center"><a href=""
+                                class="bg-blue-900 py-2 md:py-3 px-4 rounded-full shadow-lg hover:bg-blue-950 text-blue-50 hover:text-white font-semibold">En
+                                savoir plus</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+        <footer class="bg-blue-500 rounded-t-lg mt-14">
+            <div class="w-full max-w-screen-xl mx-auto p-4 md:py-8">
+                <div class="sm:flex sm:items-center sm:justify-between">
+                    <a href="" class="flex items-center mb-4 sm:mb-0 space-x-3 rtl:space-x-reverse">
+                        <span class="self-center text-2xl font-semibold whitespace-nowrap text-blue-50">Génération
+                            Autisme</span>
+                    </a>
+                    <ul class="flex flex-wrap items-center mb-6 text-sm font-medium text-blue-50">
+                        <li>
+                            <a href="#" class="hover:underline me-4 md:me-6">Maison Bleue</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline me-4 md:me-6">Le Livre</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline me-4 md:me-6">Nos partenaires</a>
+                        </li>
+                        <li>
+                            <a href="#" class="hover:underline">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <hr class="my-6 border-blue-300 sm:mx-auto lg:my-8" />
+
+                <div class="text-blue-50 flex gap-8 mb-4">
+                    <div>
+                        <a href="https://www.instagram.com/generationautisme/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-instagram" viewBox="0 0 16 16">
+                                <path d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.9 3.9 0 0 0-1.417.923A3.9 3.9 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.9 3.9 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.9 3.9 0 0 0-.923-1.417A3.9 3.9 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599s.453.546.598.92c.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.5 2.5 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.5 2.5 0 0 1-.92-.598 2.5 2.5 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233s.008-2.388.046-3.231c.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92s.546-.453.92-.598c.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92m-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217m0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334"/>
+                              </svg>
+                            </svg>
+                        </a>
+                    </div>
+                    <div>
+                        <a href="https://www.facebook.com/generationautisme/" target="_blank">
+                            <svg xmlns="http://www.w3.org/2000/svg" width="22" height="22" fill="currentColor" class="bi bi-facebook" viewBox="0 0 16 16">
+                                <path d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951"/>
+                              </svg>
+                        </a>
+                    </div>
+                </div>
+                <div>
+                    <div class="flex justify-between">
+                        <span class="block text-sm text-blue-100 sm:text-center">© 2024 <a href=""
+                                class="hover:underline">Génération Autisme™</a>. Tous droits réservés.</span>
+                    </div>
+                </div>
+            </div>
+        </footer>
+
+        <script src="./script.js"></script>
+</body>
+
+</html>
