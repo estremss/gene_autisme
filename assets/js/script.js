@@ -24,7 +24,7 @@ async function initializePage() {
 
     for (let item of menuItems) {
         console.log(item);
-        if (item.classList.contains(thisPage)) {
+        if (item.classList.contains(thisPage) && thisPage != "contact") {
             item.classList.add("souligne");
         }
     }
