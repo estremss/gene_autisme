@@ -1,2 +1,4 @@
 gene_autisme_remarques.txt
 tailwind.config.js
+*.json
+node_modules/

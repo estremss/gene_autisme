@@ -24,8 +24,9 @@ async function initializePage() {
 
     for (let item of menuItems) {
         console.log(item);
-        if (item.classList.contains(thisPage) && thisPage != "contact") {
-            item.classList.add("souligne");
+        if (item.classList.contains(thisPage)) {
+            item.classList.add("underline");
+            item.classList.add("underline-offset-4");
         }
     }
 }
